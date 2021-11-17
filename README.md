@@ -25,7 +25,7 @@ Powered by
 The app is hosted on Heroku, please be patient Heroku takes 20s to boot.
 [**TRY IT IN ACTION!**](https://aglet-movie-db.herokuapp.com/)
 
-[Aglet Movie DB](./docs/demo.PNG)
+![Aglet Movie DB](/docs/demo.png)
 
 # Features
 
