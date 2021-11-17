@@ -1,5 +1,10 @@
 @import '../../scss/Global-styles.scss';
 
+.ant-input {
+  border-radius: 10px;
+  border-color: $darkGrey;
+}
+
 .registerPage_wrapper {
   margin-top: 20px;
   padding-bottom: 15rem;
@@ -13,11 +18,6 @@
     .ant-row {
       display: block;
       flex-flow: unset;
-    }
-
-    .ant-input {
-      border-radius: 10px;
-      border-color: $darkGrey;
     }
   }
 
