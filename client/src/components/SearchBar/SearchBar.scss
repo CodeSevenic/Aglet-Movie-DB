@@ -1,0 +1,44 @@
+@import '../../scss/Global-styles.scss';
+
+.searchbar_wrapper {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: $darkGrey;
+  padding: 0 20px;
+}
+
+.searchbar_content {
+  position: relative;
+  max-width: $maxWidth;
+  width: 100%;
+  height: 55px;
+  background: $medGrey;
+  margin: 0 auto;
+  border-radius: 40px;
+  color: $white;
+
+  img {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 30px;
+  }
+
+  input {
+    font-size: $fontBig;
+    position: absolute;
+    left: 0;
+    margin: 8px 0;
+    padding: 0 0 0 60px;
+    border: 0;
+    width: 95%;
+    background: transparent;
+    height: 40px;
+    color: $white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

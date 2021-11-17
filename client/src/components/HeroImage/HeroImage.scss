@@ -1,0 +1,55 @@
+@import '../../scss/Global-styles.scss';
+
+.hero_wrapper {
+  background-color: $darkGrey;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 490px;
+  position: relative;
+  animation: animateHeroImage 0.5s;
+
+  @keyframes animateHeroImage {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+.hero_wrapper {
+  padding: 20px;
+  max-width: $maxWidth;
+  margin: 0 auto;
+}
+
+.hero_text {
+  z-index: 100;
+  max-width: 700px;
+  position: absolute;
+  bottom: 40px;
+  margin-right: 20px;
+  min-height: 100px;
+  color: $white;
+
+  h1 {
+    font-size: $fontXLarge;
+
+    @media screen and (max-width: 720px) {
+      font-size: $fontBig;
+    }
+  }
+
+  p {
+    font-size: $fontMed;
+
+    @media screen and (max-width: 720px) {
+      font-size: $fontSmall;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    max-width: 100%;
+  }
+}

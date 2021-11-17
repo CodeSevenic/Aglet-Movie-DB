@@ -1,0 +1,49 @@
+@import '../../scss/Global-styles.scss';
+
+.registerPage_wrapper {
+  margin-top: 20px;
+  padding-bottom: 15rem;
+  .registerPage_title {
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+
+    .ant-row {
+      display: block;
+      flex-flow: unset;
+    }
+
+    .ant-input {
+      border-radius: 10px;
+      border-color: $darkGrey;
+    }
+  }
+
+  button {
+    margin: 0 auto;
+    display: block;
+    background-color: $darkGrey;
+    border-color: $medGrey;
+    border-radius: 20px;
+    font-size: 1rem;
+    height: unset;
+    padding: 8px 30px;
+  }
+
+  button:hover,
+  button:focus {
+    color: #fff;
+    border-color: $darkGrey;
+    background: $medGrey;
+  }
+}
+
+@media (max-width: 575px) {
+  .ant-form .ant-form-item {
+    flex-wrap: unset;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,112 @@
+@import '../../scss/Global-styles.scss';
+
+.header_wrapper {
+  background: $darkGrey;
+  padding: 0 20px;
+
+  .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $maxWidth;
+    padding: 0px 0 20px 0;
+    margin: 0 auto;
+    color: $white;
+
+    .header_menu-icon {
+      font-size: 35px;
+      cursor: pointer;
+      box-shadow: 1px 1px 3px 1px #fff;
+    }
+    .header_menu-icon:hover {
+      box-shadow: 1px 1px 3px 0px #fff;
+    }
+
+    @media screen and (min-width: 830px) {
+      .header_menu-icon {
+        display: none;
+      }
+    }
+
+    .header_mobile-menu {
+      position: absolute;
+      background-color: rgba(53, 53, 53, 0.829);
+      top: 190px;
+      left: -120%;
+      width: 50%;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      min-height: 200px;
+      z-index: 9999;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      button {
+        .fav_heart {
+          margin: 0 !important;
+        }
+        width: 100px !important;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        padding-left: 10px;
+        padding-top: 20px;
+      }
+    }
+    .open {
+      left: 0 !important;
+    }
+
+    h3 {
+      justify-self: flex-end;
+      color: #ffffff;
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+    .header_logoImg {
+      width: 200px;
+      @media screen and (max-width: 500px) {
+        width: 150px;
+      }
+    }
+    .header_TMDBLogo {
+      width: 100px;
+      @media screen and (max-width: 500px) {
+        width: 80px;
+      }
+    }
+
+    button {
+      width: 90px;
+      background-color: $medGrey;
+      margin: 0 10px;
+      border-radius: 10px;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 830px) {
+      .auth_button {
+        display: none;
+      }
+
+      .favorite {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 575px) {
+      .hi_user {
+        display: none;
+      }
+    }
+  }
+}

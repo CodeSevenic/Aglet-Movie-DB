@@ -1,0 +1,23 @@
+@import '../../scss/Global-styles.scss';
+
+.grid_wrapper {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow: inset 0px 89px 30px -99px;
+
+  h1 {
+    padding-top: 10px;
+    color: $medGrey;
+
+    @media screen and (max-width: 768px) {
+      font-size: $fontBig;
+    }
+  }
+}
+
+.grid_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}

@@ -1,0 +1,274 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.jss719 {
+  color: inherit;
+  position: relative;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.thumb_wrapper .jss719:hover .jss727 {
+  display: flex;
+}
+.jss720 {
+  overflow: hidden;
+  position: relative;
+}
+
+.jss723 {
+  padding: 6px 4px;
+}
+.jss724 {
+  margin: 4px 0 8px 0;
+  font-weight: normal;
+  line-height: 140%;
+}
+.jss725 {
+  top: 8px;
+  left: -5px;
+  color: white;
+  display: inline-flex;
+  padding: 2px 8px;
+  position: absolute;
+  min-width: 30px;
+  background: #83d620;
+  font-weight: bold;
+  border-radius: 2px;
+  justify-content: center;
+}
+@media (max-width: 599.95px) {
+  .jss725 {
+    top: 12px;
+    left: -8px;
+    font-size: 1.5rem;
+    min-width: 40px;
+  }
+}
+.jss726 {
+  color: grey;
+  line-height: 150%;
+}
+.thumb_wrapper .jss727 {
+  top: 10px;
+  color: white;
+  right: 10px;
+  position: absolute;
+  min-width: 16px;
+  background: rgba(75, 87, 95, 0.9);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.thumb_wrapper .jss727:hover {
+  background: red !important;
+}
+
+@media (max-width: 599.95px) {
+  .jss727 {
+    display: flex;
+    padding: 20px;
+  }
+  .jss727 svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+.jss728 {
+  color: white;
+  display: flex;
+  background: rgba(245, 0, 87, 1);
+}
+.jss728:hover {
+  background: rgba(245, 0, 87, 0.85);
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width: 600px) {
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+}
+@media (min-width: 960px) {
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+}
+.jss647 {
+  cursor: pointer;
+  padding: 8px;
+  transition: all 0.1s cubic-bezier(0.43, 0.57, 0, 0.99);
+  transition-delay: 0.075s;
+}
+.jss647:hover {
+  z-index: 2;
+  background: white;
+}
+@media (max-width: 959.95px) {
+  .jss647 {
+    padding: 15px 25px !important;
+  }
+}
+
+.thumb_image {
+  width: 100%;
+  max-width: 720px;
+  transition: all 0.3s;
+  object-fit: cover;
+  border-radius: 20px;
+  animation: animateThumb 0.5s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @keyframes animateThumb {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.thumb_wrapper {
+  position: relative;
+  button {
+    z-index: 999;
+  }
+}

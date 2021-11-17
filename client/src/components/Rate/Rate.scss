@@ -1,0 +1,10 @@
+@import '../../scss/Global-styles.scss';
+.rate_wrapper {
+  button {
+    color: $white;
+    background-color: $darkGrey;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
