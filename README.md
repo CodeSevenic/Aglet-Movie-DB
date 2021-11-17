@@ -22,6 +22,10 @@ Powered by
 
 # Demo
 
+Use the login details below:
+
+email: jointheteam@aglet.co.za || password: @TeamAglet
+
 The app is hosted on Heroku, please be patient Heroku takes 20s to boot.
 [**TRY IT IN ACTION!**](https://aglet-movie-db.herokuapp.com/)
 
